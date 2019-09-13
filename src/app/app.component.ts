@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-angular-git';
+  cards = [];
+
+  addCard(details) {
+    this.cards.push(details);
+  }
 }
